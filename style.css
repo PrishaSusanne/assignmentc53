@@ -1,0 +1,70 @@
+h1 {
+   
+   background-color: powderblue;
+   align-content: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    text-decoration-color: black;
+}
+
+.header *{
+border: solid;
+}
+
+.header {
+    background-color:palevioletred;
+    display:flex;
+    justify-content: space-between;
+}
+
+.components {
+    text-align: left;
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display:flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+body {
+    background-color:peachpuff;
+
+}
+
+.menu {
+    margin-right: 30px;
+}
+
+.menu a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item {
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
